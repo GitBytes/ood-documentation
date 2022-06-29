@@ -1,6 +1,6 @@
 .. _resource-manager-kubernetes:
 
-Kuberenetes
+Kubernetes
 ===========
 
 TODO table of contents
@@ -16,7 +16,7 @@ cluster looks like:
     metadata:
       title: "My K8s Cluster"
     # you may not want a login section. There may not be a login node
-    # for your kuberenetes cluster
+    # for your kubernetes cluster
     login:
       host: "my_k8s_cluster.my_center.edu"
     job:
@@ -98,7 +98,7 @@ cluster configuration above or specify them for each app individually.
 
 You should have policies in place to enforce these.
 
-Bootstrapping the Kuberenetes cluster
+Bootstrapping the Kubernetes cluster
 *************************************
 
 Before anyone can use your Kubernetes cluster from Open OnDemand, you'll need
